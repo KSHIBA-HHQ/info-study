@@ -1,0 +1,50 @@
+https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/doc/configure_via_anaconda.md
+
+conda env create -f environment.yml
+
+conda create --name myenv
+
+source activate carnd-term1
+
+
+jupyter notebook
+
+
+conda  upgrade  conda
+
+conda  upgrade  --all
+
+
+conda install -c conda-foge imageio
+
+conda install -c conda-foge ffmpeg
+
+pip install --upgrade moviepy
+
+pip install -i https://pypi.anaconda.org/pypi/simple moviepy
+
+
+conda update --prefix yourenvs anaconda
+
+conda install -c conda-foge matplotlib
+
+
+conda install -c menpo opencv3
+
+
+pip install tensorflow
+TensorFlowópÇ…âºëzä¬ã´ÇçÏÇËÇ‹Ç∑
+conda create -n tensorflow python=3.5 anaconda
+
+http://imageio.readthedocs.io/en/latest/installation.html
+
+If you are in a conda env: conda install -c conda-forge imageio
+If you have pip: pip install imageio
+Good old python setup.py install
+
+conda info -e
+
+////////////////////////////
+python
+import imageio
+imageio.plugins.ffmpeg.download()
