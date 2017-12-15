@@ -33,7 +33,7 @@ conda install -c menpo opencv3
 
 
 pip install tensorflow
-TensorFlow�p�ɉ��z�������܂�
+TensorFlow用に仮想環境を作ります
 conda create -n tensorflow python=3.5 anaconda
 
 http://imageio.readthedocs.io/en/latest/installation.html
@@ -48,3 +48,6 @@ conda info -e
 python
 import imageio
 imageio.plugins.ffmpeg.download()
+
+
+http://myenigma.hatenablog.com/entry/2016/02/09/223403#1-ソフトウェアをGitHubからcloneする
